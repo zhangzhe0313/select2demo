@@ -12,6 +12,7 @@ select::-ms-expand {
 }
 
 .select2-selection__arrow {
+    width: 50px !important;
     height: 50px !important;
     top: 0 !important;
     background: url(./off_arrow_down.png) no-repeat center !important;

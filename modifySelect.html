@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>修改select图标</title>
+    <link rel="stylesheet" href="./select2.min.css">
+    <link rel="stylesheet" href="./modifyselect.css">
+</head>
+
+<body>
+    <select id="select2Plugin">
+        <option value="0">中国</option>
+        <option value="1">英国</option>
+        <option value="2">美国</option>
+    </select>
+</body>
+<script src="./jquery.js"></script>
+<script src="./select2.min.js"></script>
+<script>
+    $('#select2Plugin').select2({
+        minimumResultsForSearch: -1 // 去掉搜索框
+    });
+</script>
+
+</html>

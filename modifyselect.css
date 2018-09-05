@@ -1,0 +1,26 @@
+select {
+    width: 200px;
+    border: solid 1px #000;
+    appearance: none !important;
+    -moz-appearance: none !important;
+    -webkit-appearance: none !important;
+    -ms-appearance: none !important;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.select2-selection__arrow {
+    height: 50px !important;
+    top: 0 !important;
+    background: url(./off_arrow_down.png) no-repeat center !important;
+    background-size: 20px 20px !important;
+}
+
+.select2-container,
+.select2-container--default .select2-selection--single,
+.select2-selection__rendered {
+    height: 50px;
+    line-height: 45px !important;
+}
